@@ -1,0 +1,29 @@
+.container {
+  border-bottom: 1px solid;
+  box-shadow: 0px 8px 20px 0px rgb(100, 10, 20, 20);
+  border-radius: 12px;
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.list {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  padding: 15px;
+  background-color: transparent;
+}
+.navLink {
+  color: black;
+  font-size: 36px;
+}
+
+.navLink:hover {
+  color: rgb(100, 10, 20, 20);
+  filter: drop-shadow(5px 5px 5px rgb(100, 10, 20, 80));
+}
+
+.active {
+  color: rgb(100, 10, 20, 20);
+}

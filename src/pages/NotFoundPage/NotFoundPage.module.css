@@ -1,0 +1,20 @@
+.text {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+}
+
+.goBack {
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+  width: max-content;
+  align-items: center;
+  filter: drop-shadow(5px 5px 5px rgb(100, 10, 20, 80));
+}
+
+.goBack:hover {
+  color: rgb(100, 10, 20, 20);
+  filter: drop-shadow(5px 5px 5px rgb(100, 10, 20, 80));
+}
