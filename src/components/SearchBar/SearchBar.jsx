@@ -4,7 +4,7 @@ import s from "./SearchBar.module.css";
 
 export default function SearchBar({ onSubmit }) {
   const notifyEmpty = () =>
-    toast("Please, enter something on the searching field!");
+    toast("Please, enter something on the searching field.");
 
   const initialValues = { query: "" };
 

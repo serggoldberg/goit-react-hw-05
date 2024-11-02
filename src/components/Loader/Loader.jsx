@@ -4,7 +4,7 @@ export default function Loader() {
   return (
     <div>
       <Comment />
-      <p>Please, wait a little, loading in process</p>
+      <p>Please, wait a little, loading in process!</p>
     </div>
   );
 }
