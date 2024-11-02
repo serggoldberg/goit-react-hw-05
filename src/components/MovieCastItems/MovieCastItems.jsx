@@ -5,7 +5,7 @@ export default function MovieCastItem({ cast }) {
 
   return (
     <ul>
-      {cast.map(({ id, name, character, profile_path, gender }) => (
+      {cast.map(({ id, name, character, profile_path }) => (
         <li key={id}>
           <img
             src={
