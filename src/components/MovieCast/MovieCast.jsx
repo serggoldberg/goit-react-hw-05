@@ -20,7 +20,7 @@ export default function MovieCast() {
     <div>
       {filmCast.length !== 0 && <MovieCastItems cast={filmCast} />}
       {filmCast.length === 0 && (
-        <p>There is not any information about the film cast!</p>
+        <p>There is not any information about the film cast!!!</p>
       )}
     </div>
   );
